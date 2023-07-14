@@ -1,0 +1,73 @@
+body {
+  background-image: url("../CSS/fotos/fondohelado2.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; /* Agregado */
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 400px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  background-color: rgba(128, 128, 128, 0.297);
+  text-align: center;
+  margin-top: 0; 
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+form input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+
+section {
+  margin-top: 20px;;
+}
+
+#listaHelados {
+  list-style-type: disc;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+

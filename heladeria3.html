@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Heladería</title>
+  <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+  <h1>Bienvenido a nuestra heladería</h1>
+  <p>A continuación, tomaremos su pedido.</p>
+
+  <div>
+    <label for="gusto">Ingrese su gusto:</label>
+    <input type="text" id="gusto">
+  </div>
+
+  <div>
+    <label for="tamaño">Ingrese el tamaño:</label>
+    <input type="text" id="tamaño">
+  </div>
+
+  <button onclick="iniciarSimulacion()">Realizar pedido</button>
+
+  <section>
+    <h2>Helados disponibles:</h2>
+    <ul id="listaHelados">
+      <li>Chocolate</li>
+      <li>Vainilla</li>
+      <li>Frutilla</li>
+    </ul>
+  </section>
+
+  <button onclick="guardarPedido()">Guardar pedido</button>
+
+  
+
+  <h2>Resultado:</h2>
+  <p id="resultado"></p>
+
+  <script src="./JS/heladeria3.js"></script>
+</body>
+</html>
